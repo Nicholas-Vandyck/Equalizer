@@ -277,36 +277,30 @@ span{
     main{
         width: 100px;
     }
-
-    page{
+    .page{
         width: 768px;
     }
-
     .group{
          width: auto;
     }
-
     .oval-shape-2{
         width: 384px;
         height: 384px;
         left: -254px;
         top: -112px;
     }
-
     .oval-shape-3{
         width: 384px;
         height: 384px;
         left: 345px;
         top: 41px;
     }
-
     .oval-shape-4{
         width: 384px;
         height: 384px;
         left: 345px;
         top: 312px;
     }
-       
     .logo-shape-1{
         position: absolute;
         width: 146.09px;
@@ -314,7 +308,6 @@ span{
         left:15px;
         top: 61.99px;
     }
-
     .rectangle-shape-1{
         position: absolute;
         width: 266.67px;
