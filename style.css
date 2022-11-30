@@ -302,7 +302,7 @@ footer p{
         top: -10rem;
         left: 10px;
         background: url(./assets/bg-main-tablet.png) no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position: center;
         background-size: cover;
     } 
@@ -455,7 +455,7 @@ footer p{
 
 
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (max-width: 420px){
       
 .page{
     position: relative;
@@ -474,7 +474,7 @@ footer p{
     padding: 5px 10em 20em 50px;
     background: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
 } 
