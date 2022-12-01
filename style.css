@@ -276,7 +276,7 @@ footer p{
     
 }
 
-.social-media img:hover{
+.social-media img:hover {
     cursor: pointer;
     background-color: #FA7453;
     opacity: 0.5;
