@@ -297,6 +297,149 @@ footer p{
 /* End */
 
 
+@media only screen and (max-width: 375px) and (min-width:280px){ 
+    
+    main{
+        padding: 1rem;
+        overflow: hidden;
+        width: 375px; 
+        height: 1945px; 
+        background: url(./assets/bg-main-mobile.png) no-repeat;   
+    }
+    
+    .rectangle-shape-1{
+        display: none;
+    }
+
+    .page-container{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .page-logo{
+        position: absolute;
+        width: 14px;
+        height: 32px;
+        left: 12px;
+        top: 30px;
+    }
+
+    .text{
+        position: absolute; 
+        width: 80%; 
+        height: 21px;
+        left: 1rem;
+        top: 12rem;
+        font-weight: 510;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: -3px;
+        color: #191826;
+   } 
+
+   .text-2{
+        position: absolute;
+        width: 300px;
+        height: 156px;
+        left: 15px;
+        top: 300px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+}   
+
+    .container-shape-1{
+        position: absolute;
+        width: 375px;
+        height: 580px;
+        left: 0px;
+        top: 650px;
+    }
+
+    .shape{
+        position: absolute;
+        width: 2rem;
+        height: 468px;
+        padding: 10px 34.10em;
+        left: -20rem;
+        top: -1rem;
+    }
+
+    .mobile{
+        display: none;
+    }
+    .mobile-copy{
+        display: none;
+    }
+
+    .mobile-copy-2{
+        position: relative; 
+        display: inline;
+        width: -10%;
+        height: 64px;
+        left: 5rem;
+        top: -12rem;
+    }
+
+    .container-shape-2{
+        width: 375px;
+        height: 580px;
+        left: 0px;
+        top: 42rem;
+    }
+
+    .font-text-2{
+        top: 12rem;
+    }
+
+    .font-text-3{
+        top: 33rem;
+    } 
+    
+    .month{
+        left: 9rem; 
+    }
+    
+    .btn{
+        width: 285px;
+        height: 60px;
+        left: 4rem;
+        top: 40rem;
+    }
+    
+    .btn-1{ 
+        width: 285px;
+        height: 60px;
+        left:4rem;
+        top: 47rem;
+    }
+   
+
+    footer{
+        position: absolute;
+        justify-content: space-between;
+        width: 1110px; 
+        left: 4rem;
+        top: 166rem;    
+    }
+    
+    footer p{
+        width: 28%;
+       top: 5rem;
+        left: 0rem;
+    }
+    
+    .social-media{
+       top: 18rem;
+        left: 0rem;
+    }  
+  
+}
+
+
 @media only screen and (max-width:768px) and (min-width: 430px ){
  
     main{
@@ -459,147 +602,7 @@ footer p{
   
 }
     
-@media only screen and (max-width: 375px) and (min-width:280px){ 
-    
-    main{
-        padding: 1rem;
-        overflow: hidden;
-        width: 375px; 
-        height: 1945px; 
-        background: url(./assets/bg-main-mobile.png) no-repeat;   
-    }
-    
-    .rectangle-shape-1{
-        display: none;
-    }
 
-    .page-container{
-        position: relative;
-        top: 0px;
-        left: 0px;
-    }
-
-    .page-logo{
-        position: absolute;
-        width: 14px;
-        height: 32px;
-        left: 12px;
-        top: 30px;
-    }
-
-    .text{
-        position: absolute; 
-        width: 80%; 
-        height: 21px;
-        left: 1rem;
-        top: 12rem;
-        font-weight: 510;
-        font-size: 40px;
-        line-height: 55px;
-        letter-spacing: -3px;
-        color: #191826;
-   } 
-
-   .text-2{
-        position: absolute;
-        width: 300px;
-        height: 156px;
-        left: 15px;
-        top: 300px;
-        font-family: 'IBM Plex Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-}   
-
-    .container-shape-1{
-        position: absolute;
-        width: 375px;
-        height: 580px;
-        left: 0px;
-        top: 650px;
-    }
-
-    .shape{
-        position: absolute;
-        width: 2rem;
-        height: 468px;
-        padding: 10px 34.10em;
-        left: -20rem;
-        top: -1rem;
-    }
-
-    .mobile{
-        display: none;
-    }
-    .mobile-copy{
-        display: none;
-    }
-
-    .mobile-copy-2{
-        position: relative; 
-        display: inline;
-        width: -10%;
-        height: 64px;
-        left: 5rem;
-        top: -12rem;
-    }
-
-    .container-shape-2{
-        width: 375px;
-        height: 580px;
-        left: 0px;
-        top: 42rem;
-    }
-
-    .font-text-2{
-        top: 12rem;
-    }
-
-    .font-text-3{
-        top: 33rem;
-    } 
-    
-    .month{
-        left: 9rem; 
-    }
-    
-    .btn{
-        width: 285px;
-        height: 60px;
-        left: 4rem;
-        top: 40rem;
-    }
-    
-    .btn-1{ 
-        width: 285px;
-        height: 60px;
-        left:4rem;
-        top: 47rem;
-    }
-   
-
-    footer{
-        position: absolute;
-        justify-content: space-between;
-        width: 1110px; 
-        left: 4rem;
-        top: 166rem;    
-    }
-    
-    footer p{
-        width: 28%;
-       top: 5rem;
-        left: 0rem;
-    }
-    
-    .social-media{
-       top: 18rem;
-        left: 0rem;
-    }  
-  
-}
 
  
  
