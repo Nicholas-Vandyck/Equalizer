@@ -448,12 +448,12 @@ footer p{
   
 }
     
-@media only screen and (max-width: 375px) and (min-width:280px){ 
+@media only screen and (max-width: 430px) and (min-width:280px){ 
     
     main{
         padding: 1rem;
         overflow: hidden;
-        width: 375px; 
+        width: 430px; 
         height: 350vh; 
         background: url(./assets/bg-main-mobile.png) no-repeat;   
     }
