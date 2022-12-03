@@ -303,7 +303,7 @@ footer .social-media{
 
 
 @media only screen
- and (min-width: 280px) 
+ and (min-width: 375px) 
  and (max-width:480px)
  and (-webkit-min-device-pixel-ratio:2){ 
     
@@ -311,7 +311,7 @@ footer .social-media{
         padding: 1rem;
         /* overflow: hidden; */
         /* max-width: 375px;  */
-        height: 350%; 
+        height: 300%; 
         background: url(./assets/bg-main-mobile.png) no-repeat;   
     }
     
