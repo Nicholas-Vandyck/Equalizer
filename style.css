@@ -32,8 +32,8 @@
     .bg{
         background-image: url(./assets/bg-main-desktop.png);
         height: 100%;
-        left: 50px;
-        top: 200px;
+        /* left: 50px; */
+        /* bottom: 200px; */
         /* background-position: center; */
         /* background-size: cover; */
         background-repeat: no-repeat;
@@ -56,13 +56,13 @@
 
 .text{
     position: relative;
-    width: 1015px; 
+    width: 70%; 
     height: 216px;
     left: -0.1rem;
     top: -26rem;
     font-family: 'IBM Plex Sans';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 88px;
     line-height: 88px;
     letter-spacing: -1px;
@@ -71,7 +71,7 @@
 
 .text-2{
     position: absolute;
-    width: 825px;
+    width: 63%;
     height: 102px;
     left: 1rem;
     top: 38rem;
@@ -95,9 +95,10 @@
 
 .shape{
     position: absolute;
-    width: 31rem;
-    height: 468px;
-    padding: 10px 34.10em;
+    width: 3rem;
+     height: 468px; 
+    left: 8.80rem;
+    padding: 20px 34.10em;
     top: -5rem;
 
 }
@@ -271,26 +272,30 @@ footer p{
     color: #191826; 
 }
 
-.social-media{
+footer .social-media{
     position: absolute;
-    width: 100px;
+    display: flex;
+    justify-content: space-between  !important;              
+    width: 10%;
     height: 20px;
     left: 1010px;
     top: 29px;
+    cursor: pointer;
+    
 }  
 
-.social-media img{
+/* .social-media img{
     width: 20px;
     height: 20px;
     margin-right: 10px;
    
     
-}
+} */
 
-.social-media img:hover {
-    cursor: pointer;
-    background-color: #FA7453;
-    opacity: 0.5;
+.social-media {
+   
+    fill: #FA7453;
+  
     
 }
 
@@ -298,15 +303,15 @@ footer p{
 
 
 @media only screen
- and (min-width: 320px) 
+ and (min-width: 280px) 
  and (max-width:480px)
  and (-webkit-min-device-pixel-ratio:2){ 
     
     main{
         padding: 1rem;
-        overflow: hidden;
+        /* overflow: hidden; */
         /* max-width: 375px;  */
-        height: 1945px; 
+        height: 350%; 
         background: url(./assets/bg-main-mobile.png) no-repeat;   
     }
     
@@ -334,7 +339,7 @@ footer p{
         height: 21px;
         left: 1rem;
         top: 12rem;
-        font-weight: 510;
+        font-weight: 510px;
         font-size: 40px;
         line-height: 55px;
         letter-spacing: -3px;
@@ -343,7 +348,7 @@ footer p{
 
    .text-2{
         position: absolute;
-        width: 300px;
+        width: 84.50%;
         height: 156px;
         left: 15px;
         top: 300px;
@@ -430,12 +435,12 @@ footer p{
     }
     
     footer p{
-        width: 28%;
+        width: 27%;
        top: 5rem;
         left: 0rem;
     }
     
-    .social-media{
+    footer .social-media{
        top: 18rem;
         left: 0rem;
     }  
@@ -473,11 +478,11 @@ footer p{
     } 
     
     .text{
-        width: 80%; 
+        width: 70%; 
         height: 21px;
         left: 1rem;
         top: -25rem;
-        font-weight: 510;
+        font-weight: 510px;
         font-size: 65px;
         line-height: 65px;
         letter-spacing: -3px;
@@ -485,7 +490,7 @@ footer p{
     } 
 
     .text-2{
-        width: 70%;
+        width: 85%;
         left: 1rem;
         top: 43rem;
         font-family: 'IBM Plex Sans';
@@ -501,7 +506,7 @@ footer p{
         width: 90%;
         height: 55rem;
         left: 4rem;
-        top: 86rem;
+        top: 78rem;
         background: #191826;
         border-radius: 15px;
     }
@@ -510,8 +515,8 @@ footer p{
         width: 31rem;
         height: 468px;
         padding: 10px 34.10em;
-        left: -17rem;
-        top: -6rem;
+        left: -5rem;
+        top: -5rem;
     
     }
 
@@ -587,7 +592,7 @@ footer p{
         justify-content: space-between;
         width: 1110px; 
         left: 4rem;
-        top: 155rem;    
+        top: 150rem;    
     }
     
     footer p{
@@ -597,9 +602,9 @@ footer p{
         
     }
     
-    .social-media{
+    footer .social-media{
         height: 20px;
-        left: 58rem;
+        left: 55rem;
         top: 8rem;
     }  
   
