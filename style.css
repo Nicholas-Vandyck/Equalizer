@@ -311,7 +311,7 @@ footer .social-media{
         padding: 1rem;
         /* overflow: hidden; */
         /* max-width: 375px;  */
-        height: 300%; 
+        height: 350%; 
         background: url(./assets/bg-main-mobile.png) no-repeat;   
     }
     
@@ -361,7 +361,7 @@ footer .social-media{
 
     .container-shape-1{
         position: absolute;
-        width: 412px;
+        width: 375px;
         height: 580px;
         left: 0px;
         top: 650px;
@@ -393,7 +393,7 @@ footer .social-media{
     }
 
     .container-shape-2{
-        width: 412px;
+        width: 375px;
         height: 580px;
         left: 0px;
         top: 42rem;
@@ -604,7 +604,7 @@ footer .social-media{
     
     footer .social-media{
         height: 20px;
-        left: 55rem;
+        left: 52rem;
         top: 8rem;
     }  
   
