@@ -23,7 +23,7 @@ http://equalizer-sltl.vercel.app
 <img src="Tablet mode.png" with= 768px height= 1781px>
 
 ## Mobile Preview
-<img src="Tablet mode.png" with= 375px height= 1945px>
+<img src="Mobile mode.png" with= 375px height= 1945px>
 
 ## Lesson Learn
 Learned how to use media queries to make a page responsive.
