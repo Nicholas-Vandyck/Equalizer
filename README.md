@@ -17,13 +17,13 @@ http://equalizer-sltl.vercel.app
 2. Hover button effort
 
 ## Desktop Preview
-<img src="Tablet mode.png" with= height=
+<img src="Desktop mode.png" with= 1440px height= 1832px>
 
 ## Tablet Preview
-<img src="Tablet mode.png" with= height=
+<img src="Tablet mode.png" with= 768px height= 1781px>
 
 ## Mobile Preview
-<img src="Tablet mode.png" with= height=
+<img src="Tablet mode.png" with= 375px height= 1945px>
 
 ## Lesson Learn
 Learned how to use media queries to make a page responsive.
